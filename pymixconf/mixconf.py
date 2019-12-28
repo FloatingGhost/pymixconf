@@ -18,6 +18,9 @@ class MixConf:
         if config_b is None:
             return config_a
 
+        if config_a is None:
+            return config_b
+
         if not isinstance(config_b, dict):
             return config_b
 
