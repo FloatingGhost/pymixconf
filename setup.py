@@ -10,5 +10,6 @@ setup(
     keywords="configuration",
     project_urls={
         "Source Code": "https://github.com/floatingghost/pymixconf",
-    }
+    },
+    license="MIT"
 )
