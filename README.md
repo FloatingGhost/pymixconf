@@ -30,9 +30,9 @@ now you can shove stuff in those files. idk. go wild.
 then to load it:
 
 ```python
-from pymixconf import YamlConfig
+from pymixconf import YamlConf
 
-loader = YamlConfig()
+loader = YamlConf()
 my_config = loader.load_config()
 ```
 
@@ -43,7 +43,7 @@ it'll load from `CONFIG_ENV` by default.
 your options are as follows:
 
 ```python
-YamlConfig(
+YamlConf(
   config_directory="my_conf", # the directory we want to load from
   environment_key="CONFIG_ENV" # the env value to load files based on
 )
