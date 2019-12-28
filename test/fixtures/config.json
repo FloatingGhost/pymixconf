@@ -1,0 +1,14 @@
+{
+  "flask": {
+    "port": 5000
+  },
+  "logging": {
+    "level": "INFO"
+  },
+  "custom": {
+    "users": {
+        "enabled": true ,
+        "admins": ["me"]
+    }
+  }
+}
