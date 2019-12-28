@@ -15,6 +15,9 @@ class MixConf:
         pass
 
     def merge_configs(self, config_a: dict, config_b: dict) -> dict:
+        if config_b is None:
+            return config_a
+
         if not isinstance(config_b, dict):
             return config_b
 
